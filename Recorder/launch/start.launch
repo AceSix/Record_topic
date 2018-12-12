@@ -1,0 +1,10 @@
+<launch>
+
+	<node	name="Record_node"
+		pkg="Recorder"
+		type="Record_node"
+		respawn="false"
+		output="screen">
+	</node>
+
+</launch>
